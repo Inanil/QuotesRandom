@@ -15,15 +15,17 @@ body {
     width: min(400px, 80%);
     border-radius: 10px;
     box-shadow: 1px 1px 7px 0 #9E9E9E;
-    font-size: 18px;
+    font-size: 16px;
     position: relative;
+    font-family: 'Raleway', sans-serif;
 }
 
 .box-quote__autor {
-    font-size: 16px;
+    font-size: 12px;
     position: relative;
-    left: 68%;
-    transform: translateX(-68%);
+    left:60%;
+    transform: translateX(-60%);
+    font-family: 'Raleway', sans-serif;
 
 }
 
