@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import Button from './components/Button'
 import QuoteBox from './components/QuoteBox'
 import quotes from './json/quotes.json'
 
@@ -36,13 +37,17 @@ function App() {
   return (
     <div style={objectStyle} className='App'>
 
+       <article className='box-quote' style={{ color: colorRandom }}>
       <QuoteBox
         quoteRandom={quoteRandom}
         colorRandom={colorRandom}
-        clickButton={clickButton}
       />
-
-
+      <Button
+      clickButton={clickButton}
+      colorRandom={colorRandom}
+      />
+ 
+</article>
     </div>
 
   )
