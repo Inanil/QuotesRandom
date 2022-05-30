@@ -15,17 +15,17 @@ function App() {
     return Math.floor(Math.random() * array.length)
   }
 
-  const getElementsRandom = array=>{
-    const i= createNumberRandom(array)
+  const getElementsRandom = array => {
+    const i = createNumberRandom(array)
     return array[i]
   }
- 
+
   const [quoteRandom, setquoteRandom] = useState(getElementsRandom(quotes))
   const [colorRandom, setcolorRandom] = useState(getElementsRandom(colors))
 
-  const clickButton= ()=>{
+  const clickButton = () => {
     setquoteRandom(getElementsRandom(quotes))
-    setcolorRandom (getElementsRandom(colors))
+    setcolorRandom(getElementsRandom(colors))
   }
 
 

@@ -20,10 +20,18 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+.box-quote__marks {
+    font-family: 'Crimson Pro', serif;
+    font-size: 24px;
+    font-weight: 500;
+
+
+}
+
 .box-quote__autor {
     font-size: 12px;
     position: relative;
-    left:60%;
+    left: 60%;
     transform: translateX(-60%);
     font-family: 'Raleway', sans-serif;
 
